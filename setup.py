@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 with open('README.rst') as readme:
@@ -25,6 +25,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
-    py_modules=['html5lib_truncation'],
+    packages=find_packages(),
     platforms=['Any'],
 )
