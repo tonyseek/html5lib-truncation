@@ -8,7 +8,7 @@ with open('README.rst') as readme:
 
 setup(
     name='html5lib-truncation',
-    version='0.1.0.dev0',
+    version='0.1.0',
     author='Jiangge Zhang',
     author_email='tonyseek@gmail.com',
     description='Truncating HTML with html5lib filter',
