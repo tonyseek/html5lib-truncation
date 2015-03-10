@@ -1,7 +1,9 @@
+|Build Status| |Coverage Status| |PyPI Version| |Wheel Status|
+
 html5lib-truncation
 ===================
 
-``html5lib-truncation`` is an implementation of html5lib filter, which can
+``html5lib-truncation`` is an html5lib filter implementation, which can
 truncate HTML to specific length in display, but never breaks HTML tags.
 
 There is a shortcut function, the simplest way to use it::
@@ -63,3 +65,16 @@ Contributes
 
 You can send a pull reueqst on
 `GitHub <https://github.com/tonyseek/html5lib-truncation/pulls>`_.
+
+.. |Build Status| image:: https://img.shields.io/travis/tonyseek/html5lib-truncation.svg?style=flat
+   :target: https://travis-ci.org/tonyseek/html5lib-truncation
+   :alt: Build Status
+.. |Coverage Status| image:: https://img.shields.io/coveralls/tonyseek/html5lib-truncation.svg?style=flat
+   :target: https://coveralls.io/r/tonyseek/html5lib-truncation
+   :alt: Coverage Status
+.. |Wheel Status| image:: https://pypip.in/wheel/html5lib-truncation/badge.svg?style=flat
+   :target: https://warehouse.python.org/project/html5lib-truncation
+   :alt: Wheel Status
+.. |PyPI Version| image:: https://img.shields.io/pypi/v/html5lib-truncation.svg?style=flat
+   :target: https://pypi.python.org/pypi/html5lib-truncation
+   :alt: PyPI Version
