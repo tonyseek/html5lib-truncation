@@ -47,9 +47,6 @@ class TruncationIterator(object):
     def all_tags_closed(self):
         return self.total_tags <= 0
 
-    def next(self):
-        return self.__next__()
-
     def __iter__(self):
         return self
 
@@ -81,3 +78,6 @@ class TruncationIterator(object):
             raise StopIteration
 
         return token
+
+    # For compatible with Python 2.x
+    next = __next__
