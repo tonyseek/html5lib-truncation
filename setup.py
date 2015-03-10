@@ -27,4 +27,5 @@ setup(
     ],
     packages=find_packages(),
     platforms=['Any'],
+    install_requires=['html5lib'],
 )
