@@ -6,7 +6,9 @@ html5lib-truncation
 ``html5lib-truncation`` is an html5lib filter implementation, which can
 truncate HTML to specific length in display, but never breaks HTML tags.
 
-There is a shortcut function, the simplest way to use it::
+There is a shortcut function, the simplest way to use it:
+
+.. code-block:: python
 
     >>> from html5lib_truncation import truncate_html
     >>>
@@ -34,7 +36,9 @@ Don't forget to put it into your ``requirements.txt`` or ``setup.py``.
 API Overview
 ------------
 
-The core API of html5lib-truncation is the filter::
+The core API of html5lib-truncation is the filter:
+
+.. code-block:: python
 
     import html5lib
     from html5lib_truncation import TruncationFilter
