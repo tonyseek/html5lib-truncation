@@ -3,7 +3,7 @@
 html5lib-truncation
 ===================
 
-``html5lib-truncation`` is an html5lib filter implementation, which can
+``html5lib-truncation`` is a html5lib_ filter implementation, which can
 truncate HTML to specific length in display, but never breaks HTML tags.
 
 There is a shortcut function, the simplest way to use it:
@@ -21,6 +21,9 @@ There is a shortcut function, the simplest way to use it:
     u'<p>A <a href=#>very very...</a>'
     >>> truncate_html(html, 20, end='...', break_words=True)
     u'<p>A <a href=#>very very lon...</a>'
+
+
+.. _html5lib: https://github.com/html5lib/html5lib-python
 
 
 Installation
