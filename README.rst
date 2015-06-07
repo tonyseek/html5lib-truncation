@@ -79,7 +79,7 @@ You can send a pull reueqst on
 .. |Coverage Status| image:: https://img.shields.io/coveralls/tonyseek/html5lib-truncation.svg?style=flat
    :target: https://coveralls.io/r/tonyseek/html5lib-truncation
    :alt: Coverage Status
-.. |Wheel Status| image:: https://pypip.in/wheel/html5lib-truncation/badge.svg?style=flat
+.. |Wheel Status| image:: https://img.shields.io/pypi/wheel/html5lib-truncation.svg?style=flat
    :target: https://warehouse.python.org/project/html5lib-truncation
    :alt: Wheel Status
 .. |PyPI Version| image:: https://img.shields.io/pypi/v/html5lib-truncation.svg?style=flat
